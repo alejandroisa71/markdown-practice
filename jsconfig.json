@@ -1,7 +1,10 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@md/*":["./src/app/markdown/*"],
+      "contetlayer/generated":["./.contentlayer/generated"]
     }
   }
 }
